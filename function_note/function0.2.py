@@ -1,3 +1,5 @@
-def gg(n2,ward):
+def gg(n2 ,ward):
     print(n2 + ward)
-gg('姚','晨阳')
+
+
+gg('姚', '晨阳')
