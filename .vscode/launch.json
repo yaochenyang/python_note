@@ -102,7 +102,7 @@
             "name": "Python: Flask (0.10.x or earlier)",
             "type": "python",
             "request": "launch",
-            "stopOnEntry": true,
+            "stopOnEntry": false,
             "pythonPath": "${config:python.pythonPath}",
             "program": "${workspaceFolder}/run.py",
             "cwd": "${workspaceFolder}",
