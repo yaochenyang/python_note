@@ -1,4 +1,4 @@
-def gg(n2 ,ward):
+def gg(n2, ward):
     print(n2 + ward)
 
 
