@@ -24,7 +24,7 @@ for i in range(length):
                 countA = 0
                 countB = 0
                 countC = 0
-            else:  # 此else也就对应着countB == 0
+            else:  #   == 0
                 countB = 1  # 没有小写字符的时候直接给B添加一个
                 countC = 0
                 target = i  # 存入小写字母的索引
@@ -32,7 +32,7 @@ for i in range(length):
         if i + 1 != length and str1[i + 1].isupper():
             countB = 0
             countC = 0
-        else:
+        else: 
             print(str1[target], end='')
             countA = 3
             countB = 0
